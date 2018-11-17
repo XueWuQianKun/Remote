@@ -29,6 +29,10 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  
+  s.subspec 'HomeModul' do |cs|
+      cs.source_files = 'LYTestGitRemote/Classes/HomeModul/*.{h,m}'
+  end
 
   s.source_files = 'LYTestGitRemote/Classes/**/*'
   
