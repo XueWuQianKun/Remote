@@ -1,0 +1,6 @@
+framework module Pods_LYTestGitRemote_Example {
+  umbrella header "Pods-LYTestGitRemote_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

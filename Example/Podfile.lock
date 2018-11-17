@@ -1,0 +1,16 @@
+PODS:
+  - LYTestGitRemote (0.1.0)
+
+DEPENDENCIES:
+  - LYTestGitRemote (from `../`)
+
+EXTERNAL SOURCES:
+  LYTestGitRemote:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LYTestGitRemote: fd6136b16fd8872ce0018db8c26988ad7bc9ee7e
+
+PODFILE CHECKSUM: 5b75bb41e9746333d1aea5e488b86bce27e209ed
+
+COCOAPODS: 1.6.0.beta.2

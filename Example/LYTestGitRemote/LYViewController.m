@@ -7,7 +7,7 @@
 //
 
 #import "LYViewController.h"
-
+#import <LYTestGitRemote/UIAlertController+MyAlertController.h>
 @interface LYViewController ()
 
 @end
@@ -17,6 +17,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

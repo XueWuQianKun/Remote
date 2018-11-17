@@ -1,0 +1,851 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01F5D11E2C78228ADFD2B5DD7BF8183B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		0C0BCA6C7BB88BA8E397758AE33E9BB7 /* CDPZoomIn.png in Sources */ = {isa = PBXBuildFile; fileRef = 40BF7E11239D2EC43FDBA18C2767EF3B /* CDPZoomIn.png */; };
+		11262773DEC7CA9F608A318D0C2E1AAB /* CDPBack@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = FAA05126D9F29B5473D7232477BCA89D /* CDPBack@2x.png */; };
+		15E93887BA5F58C6804AA749DE73B549 /* CDPZoomOut.png in Sources */ = {isa = PBXBuildFile; fileRef = 8BB586C6448CBE2CACD1B89C88835CE1 /* CDPZoomOut.png */; };
+		19E5A1F63DBE1AFA9BE61C9583A2D875 /* CDPVideoPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = F352887B071F8B7042A276370EAF76D0 /* CDPVideoPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29CD2D0D5017CAB135EDBF712F901F17 /* CDPPlay.png in Sources */ = {isa = PBXBuildFile; fileRef = F3540B71DFD46CFAABA19AFB3C29AF40 /* CDPPlay.png */; };
+		31B995E1A5C3291A1ACC89C623EA2990 /* CDPZoomOut@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = CFB0D34EAC88EFA801F3359DFC10C6AE /* CDPZoomOut@2x.png */; };
+		3E6D6CE8A6AB839314A223CCCB45C38A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		3F3D7063ECCC203FD6069997C641759D /* CDPSlider@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 17E4D54957CC03AFCFEA01A382F0C3BE /* CDPSlider@2x.png */; };
+		664BCFF0D412869771E1F973134E71F2 /* UIAlertController+MyAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C200ED4D133609B4450A225E7A7960D /* UIAlertController+MyAlertController.m */; };
+		66CFCC7B00DF9BC7A754236C473D0DFC /* CDPPlay@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = E68F797245F8C05E65F332EB791770E3 /* CDPPlay@2x.png */; };
+		6F3AD5F241BFE6BC1C8722134BE2A8BC /* LYTestGitRemote-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8887B98C75853A61027408C6AD5FF8CD /* LYTestGitRemote-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7ED5EFCEB131B1B97E912CD7C8E1D639 /* CDPVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D930BE25026C73133116D45C7D2D9CD /* CDPVideoPlayer.m */; };
+		7FA517A8C3948D9E3B3E6C6654E9645C /* CDPZoomIn@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 67D815CF8883A00D4A8B4B5291A3BDFE /* CDPZoomIn@2x.png */; };
+		9179F0B8F9D26BABCC33476E8B52EA79 /* CDPSlider@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 531DA9EF08D0DE1122D6A8D291521632 /* CDPSlider@3x.png */; };
+		A02AE24227C185C9ED3D4CAFF8E8B1C1 /* UIAlertController+MyAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD250B9C15F02532AC7D8585D001860 /* UIAlertController+MyAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A313C2CEFC86EAA4422A49841DF6874A /* Pods-LYTestGitRemote_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69206123D3513F7BE79F5466599D8CEB /* Pods-LYTestGitRemote_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAF7E4D5E7E1F662FC4B4645F5A9EFD2 /* CDPButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA46A1A68849486D4E7E1E02A89D702 /* CDPButton.m */; };
+		C61FB0B37A0EEDF8BF7FEBFE0495CEDA /* LYTestGitRemote-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F33346370F780B8504888DEBD60DD05B /* LYTestGitRemote-dummy.m */; };
+		C8A77AACECB1C86DE346C375DEEB57B0 /* CDPButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D52859A2781FBB9E831BBF7D32B138C /* CDPButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC5F9EDAFAB7C45729F190EE5874A6A6 /* CDPPause@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 96E250566A6DD04C43587D212D7E2B32 /* CDPPause@2x.png */; };
+		D3A4DF28E9E8AB0EEF7FF6BEC90A9EC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		EE5AE5925B2BC098D7F544958E23DE6F /* CDPPause.png in Sources */ = {isa = PBXBuildFile; fileRef = 7104335DFBA5912238176B6F0FE955E0 /* CDPPause.png */; };
+		F11A8C1F18FF570EB645E39C97900F47 /* Pods-LYTestGitRemote_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5BC52F99915693AC6EFC3D54B8FAF1 /* Pods-LYTestGitRemote_Example-dummy.m */; };
+		F25CF269C561D2BC6C3A5DF46132B24C /* Pods-LYTestGitRemote_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FEDFBEFD7D6004342CE4DE6F28C800 /* Pods-LYTestGitRemote_Tests-dummy.m */; };
+		F649C332F90F1F33B0AF6B69CF55EEFB /* CDPBack@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 8A5B558E9AB2FCE7F84E6DC002FE7807 /* CDPBack@3x.png */; };
+		FBB7556D72274D860114A0D7E9B92085 /* Pods-LYTestGitRemote_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E00BF901C4D0B8364ED2C7DEB7D52CD /* Pods-LYTestGitRemote_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D925BFB66AC135ED71B04562E1C68D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AEFCE235A21410EFF3EC5FEFEB30254;
+			remoteInfo = "Pods-LYTestGitRemote_Example";
+		};
+		9F27CE9F53F0E8E652622D44FB0EC90A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24B42D5297240EA539B2D1E468F27640;
+			remoteInfo = LYTestGitRemote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03A19B79F2FF2B120F7094EA1387130A /* Pods-LYTestGitRemote_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYTestGitRemote_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		06BBC12F4240097FD02205B655347BAC /* Pods-LYTestGitRemote_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYTestGitRemote_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0C8E07F13EF21B0865A4FEA2C11316A0 /* Pods-LYTestGitRemote_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYTestGitRemote_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		17E4D54957CC03AFCFEA01A382F0C3BE /* CDPSlider@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "CDPSlider@2x.png"; sourceTree = "<group>"; };
+		1B5BC52F99915693AC6EFC3D54B8FAF1 /* Pods-LYTestGitRemote_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LYTestGitRemote_Example-dummy.m"; sourceTree = "<group>"; };
+		1CF9F8CA588BCB51716CEAD8FED1AB69 /* Pods-LYTestGitRemote_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LYTestGitRemote_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		40BF7E11239D2EC43FDBA18C2767EF3B /* CDPZoomIn.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = CDPZoomIn.png; sourceTree = "<group>"; };
+		456E277A118C6EEC97F044512D599A17 /* LYTestGitRemote-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYTestGitRemote-prefix.pch"; sourceTree = "<group>"; };
+		488920BFE34173C9FDD4BA759A870BCA /* Pods-LYTestGitRemote_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYTestGitRemote_Example-Info.plist"; sourceTree = "<group>"; };
+		531DA9EF08D0DE1122D6A8D291521632 /* CDPSlider@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "CDPSlider@3x.png"; sourceTree = "<group>"; };
+		623BDC40D7D443B10CF9D225DEFB8E21 /* Pods-LYTestGitRemote_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYTestGitRemote_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		64FF2F3137CE92C5D6BAB587848C4E2F /* LYTestGitRemote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LYTestGitRemote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		665EEF002168BAB6D8BC7D5607FA5B5E /* Pods-LYTestGitRemote_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LYTestGitRemote_Example-frameworks.sh"; sourceTree = "<group>"; };
+		67D815CF8883A00D4A8B4B5291A3BDFE /* CDPZoomIn@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "CDPZoomIn@2x.png"; sourceTree = "<group>"; };
+		69206123D3513F7BE79F5466599D8CEB /* Pods-LYTestGitRemote_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LYTestGitRemote_Tests-umbrella.h"; sourceTree = "<group>"; };
+		70EC68EFA5B000FEAAE049A5980A137E /* Pods-LYTestGitRemote_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYTestGitRemote_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7104335DFBA5912238176B6F0FE955E0 /* CDPPause.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = CDPPause.png; sourceTree = "<group>"; };
+		75AFA9FFF56855D5FC9EA7E827AA6FC4 /* LYTestGitRemote-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LYTestGitRemote-Info.plist"; sourceTree = "<group>"; };
+		78429ED16FFFDE20B60E1BA4D7E5523C /* LYTestGitRemote.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LYTestGitRemote.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		7A5FDCBCA1DD3F94ED91BD570D8F1972 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7AD250B9C15F02532AC7D8585D001860 /* UIAlertController+MyAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertController+MyAlertController.h"; path = "LYTestGitRemote/Classes/UIAlertController+MyAlertController.h"; sourceTree = "<group>"; };
+		7C200ED4D133609B4450A225E7A7960D /* UIAlertController+MyAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertController+MyAlertController.m"; path = "LYTestGitRemote/Classes/UIAlertController+MyAlertController.m"; sourceTree = "<group>"; };
+		86BCC5D1107C1940C8BEF6D858859A89 /* LYTestGitRemote.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LYTestGitRemote.modulemap; sourceTree = "<group>"; };
+		8887B98C75853A61027408C6AD5FF8CD /* LYTestGitRemote-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYTestGitRemote-umbrella.h"; sourceTree = "<group>"; };
+		8A5B558E9AB2FCE7F84E6DC002FE7807 /* CDPBack@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "CDPBack@3x.png"; sourceTree = "<group>"; };
+		8BB586C6448CBE2CACD1B89C88835CE1 /* CDPZoomOut.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = CDPZoomOut.png; sourceTree = "<group>"; };
+		8D930BE25026C73133116D45C7D2D9CD /* CDPVideoPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDPVideoPlayer.m; sourceTree = "<group>"; };
+		8FEA0FC6132EB80C11F490B313775648 /* Pods-LYTestGitRemote_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYTestGitRemote_Tests-Info.plist"; sourceTree = "<group>"; };
+		92E2F90CE6B8D8F08AD591F192C25993 /* Pods-LYTestGitRemote_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYTestGitRemote_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		96E250566A6DD04C43587D212D7E2B32 /* CDPPause@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "CDPPause@2x.png"; sourceTree = "<group>"; };
+		9BA46A1A68849486D4E7E1E02A89D702 /* CDPButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDPButton.m; sourceTree = "<group>"; };
+		9D52859A2781FBB9E831BBF7D32B138C /* CDPButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDPButton.h; sourceTree = "<group>"; };
+		9E00BF901C4D0B8364ED2C7DEB7D52CD /* Pods-LYTestGitRemote_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LYTestGitRemote_Example-umbrella.h"; sourceTree = "<group>"; };
+		A0B00ED80F4D53FCFC6B135CD03873AF /* Pods_LYTestGitRemote_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYTestGitRemote_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B5FEDFBEFD7D6004342CE4DE6F28C800 /* Pods-LYTestGitRemote_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LYTestGitRemote_Tests-dummy.m"; sourceTree = "<group>"; };
+		CDF2A933F9964E9FCC0249DCFF93F73F /* LYTestGitRemote.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LYTestGitRemote.xcconfig; sourceTree = "<group>"; };
+		CFB0D34EAC88EFA801F3359DFC10C6AE /* CDPZoomOut@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "CDPZoomOut@2x.png"; sourceTree = "<group>"; };
+		D52431D60D1C084E10083B1D72FC05AD /* Pods-LYTestGitRemote_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LYTestGitRemote_Example.modulemap"; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E40BA56106DDE6112751463FC7CB9BD5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E68F797245F8C05E65F332EB791770E3 /* CDPPlay@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "CDPPlay@2x.png"; sourceTree = "<group>"; };
+		E94374C7E5F570A1AA1B35D664CEA127 /* Pods_LYTestGitRemote_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYTestGitRemote_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F33346370F780B8504888DEBD60DD05B /* LYTestGitRemote-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LYTestGitRemote-dummy.m"; sourceTree = "<group>"; };
+		F352887B071F8B7042A276370EAF76D0 /* CDPVideoPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDPVideoPlayer.h; sourceTree = "<group>"; };
+		F3540B71DFD46CFAABA19AFB3C29AF40 /* CDPPlay.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = CDPPlay.png; sourceTree = "<group>"; };
+		FAA05126D9F29B5473D7232477BCA89D /* CDPBack@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "CDPBack@2x.png"; sourceTree = "<group>"; };
+		FCA1E560FBF22022F6389D6BC3A428C3 /* Pods-LYTestGitRemote_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LYTestGitRemote_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FDA8211E30696182E8BF038E2A06DDD1 /* Pods-LYTestGitRemote_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LYTestGitRemote_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44105799CEDBF30A91429E18306571FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01F5D11E2C78228ADFD2B5DD7BF8183B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B663B80403D3D353113D066715B1C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E6D6CE8A6AB839314A223CCCB45C38A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0120F0668D1437E562EB91B8708579E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3A4DF28E9E8AB0EEF7FF6BEC90A9EC7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		253E6823BBDF78CC924EE831ED83257B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7CF3E41BCBF59D710D6755A341C92276 /* LYTestGitRemote */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		336C69ADED1AB48BA21C45DC9703CFB9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				86BCC5D1107C1940C8BEF6D858859A89 /* LYTestGitRemote.modulemap */,
+				CDF2A933F9964E9FCC0249DCFF93F73F /* LYTestGitRemote.xcconfig */,
+				F33346370F780B8504888DEBD60DD05B /* LYTestGitRemote-dummy.m */,
+				75AFA9FFF56855D5FC9EA7E827AA6FC4 /* LYTestGitRemote-Info.plist */,
+				456E277A118C6EEC97F044512D599A17 /* LYTestGitRemote-prefix.pch */,
+				8887B98C75853A61027408C6AD5FF8CD /* LYTestGitRemote-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LYTestGitRemote";
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		47C1435BEF6DE9F6B12A695BD2B9296F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E40BA56106DDE6112751463FC7CB9BD5 /* LICENSE */,
+				78429ED16FFFDE20B60E1BA4D7E5523C /* LYTestGitRemote.podspec */,
+				7A5FDCBCA1DD3F94ED91BD570D8F1972 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		77A43E46A3315A0DA69F2ECC614820FD /* Pods-LYTestGitRemote_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D52431D60D1C084E10083B1D72FC05AD /* Pods-LYTestGitRemote_Example.modulemap */,
+				1CF9F8CA588BCB51716CEAD8FED1AB69 /* Pods-LYTestGitRemote_Example-acknowledgements.markdown */,
+				03A19B79F2FF2B120F7094EA1387130A /* Pods-LYTestGitRemote_Example-acknowledgements.plist */,
+				1B5BC52F99915693AC6EFC3D54B8FAF1 /* Pods-LYTestGitRemote_Example-dummy.m */,
+				665EEF002168BAB6D8BC7D5607FA5B5E /* Pods-LYTestGitRemote_Example-frameworks.sh */,
+				488920BFE34173C9FDD4BA759A870BCA /* Pods-LYTestGitRemote_Example-Info.plist */,
+				9E00BF901C4D0B8364ED2C7DEB7D52CD /* Pods-LYTestGitRemote_Example-umbrella.h */,
+				06BBC12F4240097FD02205B655347BAC /* Pods-LYTestGitRemote_Example.debug.xcconfig */,
+				70EC68EFA5B000FEAAE049A5980A137E /* Pods-LYTestGitRemote_Example.release.xcconfig */,
+			);
+			name = "Pods-LYTestGitRemote_Example";
+			path = "Target Support Files/Pods-LYTestGitRemote_Example";
+			sourceTree = "<group>";
+		};
+		7CF3E41BCBF59D710D6755A341C92276 /* LYTestGitRemote */ = {
+			isa = PBXGroup;
+			children = (
+				7AD250B9C15F02532AC7D8585D001860 /* UIAlertController+MyAlertController.h */,
+				7C200ED4D133609B4450A225E7A7960D /* UIAlertController+MyAlertController.m */,
+				A4521946D7D1E650141A1A899D3F3FFE /* HomeModul */,
+				47C1435BEF6DE9F6B12A695BD2B9296F /* Pod */,
+				336C69ADED1AB48BA21C45DC9703CFB9 /* Support Files */,
+			);
+			name = LYTestGitRemote;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				253E6823BBDF78CC924EE831ED83257B /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F4DC2DB8CD9BD4D573DA03B93621ED61 /* Products */,
+				BA6AB623BB62F59AC9AA2041616D97C8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		808E866BA30AAD508981D38E990C2BCF /* Pods-LYTestGitRemote_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FDA8211E30696182E8BF038E2A06DDD1 /* Pods-LYTestGitRemote_Tests.modulemap */,
+				FCA1E560FBF22022F6389D6BC3A428C3 /* Pods-LYTestGitRemote_Tests-acknowledgements.markdown */,
+				92E2F90CE6B8D8F08AD591F192C25993 /* Pods-LYTestGitRemote_Tests-acknowledgements.plist */,
+				B5FEDFBEFD7D6004342CE4DE6F28C800 /* Pods-LYTestGitRemote_Tests-dummy.m */,
+				8FEA0FC6132EB80C11F490B313775648 /* Pods-LYTestGitRemote_Tests-Info.plist */,
+				69206123D3513F7BE79F5466599D8CEB /* Pods-LYTestGitRemote_Tests-umbrella.h */,
+				0C8E07F13EF21B0865A4FEA2C11316A0 /* Pods-LYTestGitRemote_Tests.debug.xcconfig */,
+				623BDC40D7D443B10CF9D225DEFB8E21 /* Pods-LYTestGitRemote_Tests.release.xcconfig */,
+			);
+			name = "Pods-LYTestGitRemote_Tests";
+			path = "Target Support Files/Pods-LYTestGitRemote_Tests";
+			sourceTree = "<group>";
+		};
+		960691003CD3644750356900D7EF6563 /* CDPImages */ = {
+			isa = PBXGroup;
+			children = (
+				FAA05126D9F29B5473D7232477BCA89D /* CDPBack@2x.png */,
+				8A5B558E9AB2FCE7F84E6DC002FE7807 /* CDPBack@3x.png */,
+				7104335DFBA5912238176B6F0FE955E0 /* CDPPause.png */,
+				96E250566A6DD04C43587D212D7E2B32 /* CDPPause@2x.png */,
+				F3540B71DFD46CFAABA19AFB3C29AF40 /* CDPPlay.png */,
+				E68F797245F8C05E65F332EB791770E3 /* CDPPlay@2x.png */,
+				17E4D54957CC03AFCFEA01A382F0C3BE /* CDPSlider@2x.png */,
+				531DA9EF08D0DE1122D6A8D291521632 /* CDPSlider@3x.png */,
+				40BF7E11239D2EC43FDBA18C2767EF3B /* CDPZoomIn.png */,
+				67D815CF8883A00D4A8B4B5291A3BDFE /* CDPZoomIn@2x.png */,
+				8BB586C6448CBE2CACD1B89C88835CE1 /* CDPZoomOut.png */,
+				CFB0D34EAC88EFA801F3359DFC10C6AE /* CDPZoomOut@2x.png */,
+			);
+			path = CDPImages;
+			sourceTree = "<group>";
+		};
+		A4521946D7D1E650141A1A899D3F3FFE /* HomeModul */ = {
+			isa = PBXGroup;
+			children = (
+				9D52859A2781FBB9E831BBF7D32B138C /* CDPButton.h */,
+				9BA46A1A68849486D4E7E1E02A89D702 /* CDPButton.m */,
+				F352887B071F8B7042A276370EAF76D0 /* CDPVideoPlayer.h */,
+				8D930BE25026C73133116D45C7D2D9CD /* CDPVideoPlayer.m */,
+				960691003CD3644750356900D7EF6563 /* CDPImages */,
+			);
+			name = HomeModul;
+			path = LYTestGitRemote/Classes/HomeModul;
+			sourceTree = "<group>";
+		};
+		BA6AB623BB62F59AC9AA2041616D97C8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				77A43E46A3315A0DA69F2ECC614820FD /* Pods-LYTestGitRemote_Example */,
+				808E866BA30AAD508981D38E990C2BCF /* Pods-LYTestGitRemote_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4DC2DB8CD9BD4D573DA03B93621ED61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64FF2F3137CE92C5D6BAB587848C4E2F /* LYTestGitRemote.framework */,
+				E94374C7E5F570A1AA1B35D664CEA127 /* Pods_LYTestGitRemote_Example.framework */,
+				A0B00ED80F4D53FCFC6B135CD03873AF /* Pods_LYTestGitRemote_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		584666ADACCBCB6ADCA782B58549B90A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8A77AACECB1C86DE346C375DEEB57B0 /* CDPButton.h in Headers */,
+				19E5A1F63DBE1AFA9BE61C9583A2D875 /* CDPVideoPlayer.h in Headers */,
+				6F3AD5F241BFE6BC1C8722134BE2A8BC /* LYTestGitRemote-umbrella.h in Headers */,
+				A02AE24227C185C9ED3D4CAFF8E8B1C1 /* UIAlertController+MyAlertController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3C161FAD0681D548CA9539FEB0638ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB7556D72274D860114A0D7E9B92085 /* Pods-LYTestGitRemote_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA84F71C1FC6F02E4999B3CD84540AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A313C2CEFC86EAA4422A49841DF6874A /* Pods-LYTestGitRemote_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		24B42D5297240EA539B2D1E468F27640 /* LYTestGitRemote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D22D42CD7CE31DDF8F2E41E8212CA930 /* Build configuration list for PBXNativeTarget "LYTestGitRemote" */;
+			buildPhases = (
+				584666ADACCBCB6ADCA782B58549B90A /* Headers */,
+				E1790CD938BA6AC6F2267B7E6ED30CF6 /* Sources */,
+				44105799CEDBF30A91429E18306571FC /* Frameworks */,
+				43A9435E54D7A483880ABA06A5310086 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYTestGitRemote;
+			productName = LYTestGitRemote;
+			productReference = 64FF2F3137CE92C5D6BAB587848C4E2F /* LYTestGitRemote.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		88F5AD91E4DC486C58380724C2037883 /* Pods-LYTestGitRemote_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAC2ADC36CD2391BB404DD9F58F25763 /* Build configuration list for PBXNativeTarget "Pods-LYTestGitRemote_Tests" */;
+			buildPhases = (
+				DDA84F71C1FC6F02E4999B3CD84540AD /* Headers */,
+				B201BAE6E3D9C3078E66EA14754C48C8 /* Sources */,
+				92B663B80403D3D353113D066715B1C2 /* Frameworks */,
+				BF9252C63D6464892FD8D3884F936D06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5871D3223B86C6E0A2E634DD635123F /* PBXTargetDependency */,
+			);
+			name = "Pods-LYTestGitRemote_Tests";
+			productName = "Pods-LYTestGitRemote_Tests";
+			productReference = A0B00ED80F4D53FCFC6B135CD03873AF /* Pods_LYTestGitRemote_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8AEFCE235A21410EFF3EC5FEFEB30254 /* Pods-LYTestGitRemote_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB61BBE495B0E96F47ACC90640C792F /* Build configuration list for PBXNativeTarget "Pods-LYTestGitRemote_Example" */;
+			buildPhases = (
+				C3C161FAD0681D548CA9539FEB0638ED /* Headers */,
+				8B89D2C4E046F1E13D95F4B0B9878236 /* Sources */,
+				E0120F0668D1437E562EB91B8708579E /* Frameworks */,
+				B5C76DE92FCD8C1BCE6756B75A4A36A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8E9971DD0487621B3DEF7F3776FA2F0 /* PBXTargetDependency */,
+			);
+			name = "Pods-LYTestGitRemote_Example";
+			productName = "Pods-LYTestGitRemote_Example";
+			productReference = E94374C7E5F570A1AA1B35D664CEA127 /* Pods_LYTestGitRemote_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F4DC2DB8CD9BD4D573DA03B93621ED61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24B42D5297240EA539B2D1E468F27640 /* LYTestGitRemote */,
+				8AEFCE235A21410EFF3EC5FEFEB30254 /* Pods-LYTestGitRemote_Example */,
+				88F5AD91E4DC486C58380724C2037883 /* Pods-LYTestGitRemote_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43A9435E54D7A483880ABA06A5310086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C76DE92FCD8C1BCE6756B75A4A36A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9252C63D6464892FD8D3884F936D06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B89D2C4E046F1E13D95F4B0B9878236 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11A8C1F18FF570EB645E39C97900F47 /* Pods-LYTestGitRemote_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B201BAE6E3D9C3078E66EA14754C48C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25CF269C561D2BC6C3A5DF46132B24C /* Pods-LYTestGitRemote_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1790CD938BA6AC6F2267B7E6ED30CF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11262773DEC7CA9F608A318D0C2E1AAB /* CDPBack@2x.png in Sources */,
+				F649C332F90F1F33B0AF6B69CF55EEFB /* CDPBack@3x.png in Sources */,
+				BAF7E4D5E7E1F662FC4B4645F5A9EFD2 /* CDPButton.m in Sources */,
+				EE5AE5925B2BC098D7F544958E23DE6F /* CDPPause.png in Sources */,
+				CC5F9EDAFAB7C45729F190EE5874A6A6 /* CDPPause@2x.png in Sources */,
+				29CD2D0D5017CAB135EDBF712F901F17 /* CDPPlay.png in Sources */,
+				66CFCC7B00DF9BC7A754236C473D0DFC /* CDPPlay@2x.png in Sources */,
+				3F3D7063ECCC203FD6069997C641759D /* CDPSlider@2x.png in Sources */,
+				9179F0B8F9D26BABCC33476E8B52EA79 /* CDPSlider@3x.png in Sources */,
+				7ED5EFCEB131B1B97E912CD7C8E1D639 /* CDPVideoPlayer.m in Sources */,
+				0C0BCA6C7BB88BA8E397758AE33E9BB7 /* CDPZoomIn.png in Sources */,
+				7FA517A8C3948D9E3B3E6C6654E9645C /* CDPZoomIn@2x.png in Sources */,
+				15E93887BA5F58C6804AA749DE73B549 /* CDPZoomOut.png in Sources */,
+				31B995E1A5C3291A1ACC89C623EA2990 /* CDPZoomOut@2x.png in Sources */,
+				C61FB0B37A0EEDF8BF7FEBFE0495CEDA /* LYTestGitRemote-dummy.m in Sources */,
+				664BCFF0D412869771E1F973134E71F2 /* UIAlertController+MyAlertController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8E9971DD0487621B3DEF7F3776FA2F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LYTestGitRemote;
+			target = 24B42D5297240EA539B2D1E468F27640 /* LYTestGitRemote */;
+			targetProxy = 9F27CE9F53F0E8E652622D44FB0EC90A /* PBXContainerItemProxy */;
+		};
+		E5871D3223B86C6E0A2E634DD635123F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LYTestGitRemote_Example";
+			target = 8AEFCE235A21410EFF3EC5FEFEB30254 /* Pods-LYTestGitRemote_Example */;
+			targetProxy = 8D925BFB66AC135ED71B04562E1C68D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2C6152CF65C86B9EFE112032B5EB3873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70EC68EFA5B000FEAAE049A5980A137E /* Pods-LYTestGitRemote_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LYTestGitRemote_Example/Pods-LYTestGitRemote_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LYTestGitRemote_Example/Pods-LYTestGitRemote_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2F0787516DB324F9F8DD272855E87899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDF2A933F9964E9FCC0249DCFF93F73F /* LYTestGitRemote.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LYTestGitRemote/LYTestGitRemote-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LYTestGitRemote/LYTestGitRemote-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LYTestGitRemote/LYTestGitRemote.modulemap";
+				PRODUCT_MODULE_NAME = LYTestGitRemote;
+				PRODUCT_NAME = LYTestGitRemote;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		450BD0571B02E6E5A129A70E11A577C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06BBC12F4240097FD02205B655347BAC /* Pods-LYTestGitRemote_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LYTestGitRemote_Example/Pods-LYTestGitRemote_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LYTestGitRemote_Example/Pods-LYTestGitRemote_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5153DC2E9BB4F6D6F85AF7C0A4A2A27F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6213F856EEBD911ECCD10FC6ADA2D926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 623BDC40D7D443B10CF9D225DEFB8E21 /* Pods-LYTestGitRemote_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LYTestGitRemote_Tests/Pods-LYTestGitRemote_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LYTestGitRemote_Tests/Pods-LYTestGitRemote_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6A949A208667F02694AF29D5DCC8D4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6DB9B17689F3F8EE665FC2270C6CB4C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C8E07F13EF21B0865A4FEA2C11316A0 /* Pods-LYTestGitRemote_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LYTestGitRemote_Tests/Pods-LYTestGitRemote_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LYTestGitRemote_Tests/Pods-LYTestGitRemote_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CBE55FEB6CE0D36891FC06336E237AE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDF2A933F9964E9FCC0249DCFF93F73F /* LYTestGitRemote.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LYTestGitRemote/LYTestGitRemote-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LYTestGitRemote/LYTestGitRemote-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LYTestGitRemote/LYTestGitRemote.modulemap";
+				PRODUCT_MODULE_NAME = LYTestGitRemote;
+				PRODUCT_NAME = LYTestGitRemote;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5153DC2E9BB4F6D6F85AF7C0A4A2A27F /* Debug */,
+				6A949A208667F02694AF29D5DCC8D4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB61BBE495B0E96F47ACC90640C792F /* Build configuration list for PBXNativeTarget "Pods-LYTestGitRemote_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				450BD0571B02E6E5A129A70E11A577C6 /* Debug */,
+				2C6152CF65C86B9EFE112032B5EB3873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAC2ADC36CD2391BB404DD9F58F25763 /* Build configuration list for PBXNativeTarget "Pods-LYTestGitRemote_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DB9B17689F3F8EE665FC2270C6CB4C1 /* Debug */,
+				6213F856EEBD911ECCD10FC6ADA2D926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D22D42CD7CE31DDF8F2E41E8212CA930 /* Build configuration list for PBXNativeTarget "LYTestGitRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F0787516DB324F9F8DD272855E87899 /* Debug */,
+				CBE55FEB6CE0D36891FC06336E237AE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

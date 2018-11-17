@@ -1,0 +1,6 @@
+framework module LYTestGitRemote {
+  umbrella header "LYTestGitRemote-umbrella.h"
+
+  export *
+  module * { export * }
+}
