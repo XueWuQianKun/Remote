@@ -17,12 +17,12 @@ LYTestGitRemote is available through [CocoaPods](https://cocoapods.org). To inst
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'LYTestGitRemote'
+ pod 'LYTestGitRemote', '~> 0.3.0'
 ```
 
 ## Author
 
-XueWuQianKun, 1603196678@qq.com
+雪飘, iOSDev
 
 ## License
 
