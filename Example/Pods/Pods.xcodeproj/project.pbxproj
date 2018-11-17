@@ -7,32 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01F5D11E2C78228ADFD2B5DD7BF8183B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		0C0BCA6C7BB88BA8E397758AE33E9BB7 /* CDPZoomIn.png in Sources */ = {isa = PBXBuildFile; fileRef = 40BF7E11239D2EC43FDBA18C2767EF3B /* CDPZoomIn.png */; };
-		11262773DEC7CA9F608A318D0C2E1AAB /* CDPBack@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = FAA05126D9F29B5473D7232477BCA89D /* CDPBack@2x.png */; };
-		15E93887BA5F58C6804AA749DE73B549 /* CDPZoomOut.png in Sources */ = {isa = PBXBuildFile; fileRef = 8BB586C6448CBE2CACD1B89C88835CE1 /* CDPZoomOut.png */; };
-		19E5A1F63DBE1AFA9BE61C9583A2D875 /* CDPVideoPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = F352887B071F8B7042A276370EAF76D0 /* CDPVideoPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		29CD2D0D5017CAB135EDBF712F901F17 /* CDPPlay.png in Sources */ = {isa = PBXBuildFile; fileRef = F3540B71DFD46CFAABA19AFB3C29AF40 /* CDPPlay.png */; };
-		31B995E1A5C3291A1ACC89C623EA2990 /* CDPZoomOut@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = CFB0D34EAC88EFA801F3359DFC10C6AE /* CDPZoomOut@2x.png */; };
+		038D1957174ECD175A5F6AE954A08957 /* LYTestGitRemote-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E26AEFD92E2A7735B0F133C5850B92 /* LYTestGitRemote-dummy.m */; };
+		1589BEF35F80FD21DCCF02276880281B /* UIAlertController+MyAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 06F0A09301B7016855557B879A76E020 /* UIAlertController+MyAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E6D6CE8A6AB839314A223CCCB45C38A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		3F3D7063ECCC203FD6069997C641759D /* CDPSlider@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 17E4D54957CC03AFCFEA01A382F0C3BE /* CDPSlider@2x.png */; };
-		664BCFF0D412869771E1F973134E71F2 /* UIAlertController+MyAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C200ED4D133609B4450A225E7A7960D /* UIAlertController+MyAlertController.m */; };
-		66CFCC7B00DF9BC7A754236C473D0DFC /* CDPPlay@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = E68F797245F8C05E65F332EB791770E3 /* CDPPlay@2x.png */; };
-		6F3AD5F241BFE6BC1C8722134BE2A8BC /* LYTestGitRemote-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8887B98C75853A61027408C6AD5FF8CD /* LYTestGitRemote-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7ED5EFCEB131B1B97E912CD7C8E1D639 /* CDPVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D930BE25026C73133116D45C7D2D9CD /* CDPVideoPlayer.m */; };
-		7FA517A8C3948D9E3B3E6C6654E9645C /* CDPZoomIn@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 67D815CF8883A00D4A8B4B5291A3BDFE /* CDPZoomIn@2x.png */; };
-		9179F0B8F9D26BABCC33476E8B52EA79 /* CDPSlider@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 531DA9EF08D0DE1122D6A8D291521632 /* CDPSlider@3x.png */; };
-		A02AE24227C185C9ED3D4CAFF8E8B1C1 /* UIAlertController+MyAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD250B9C15F02532AC7D8585D001860 /* UIAlertController+MyAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FC71702EC0E6478A9EFEABB388A7643 /* CDPVideoPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 58C2906F048A5E9B1AA9509F3CEE9C0D /* CDPVideoPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61315F6E1B8C3DC9D56A3BA2C3C7E6D6 /* UIAlertController+MyAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F3A1B3FE70E1859929DB720626F7DC /* UIAlertController+MyAlertController.m */; };
+		6C70B490E85F51299ABED246928B26ED /* LYTestGitRemote-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 435FB986E04AE96B5AC2E4F0D0F231E6 /* LYTestGitRemote-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77F9BF6459BF2CFE2CFD57D6CEF8DFBA /* CDPButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DACD4E8B39B757235DE3A99BF84BBB4 /* CDPButton.m */; };
+		83EFACF06646FC0C86B28CA9B90BF7D4 /* CDPVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA904FD3967F0FA4D7E630C1C335475 /* CDPVideoPlayer.m */; };
+		95824BE85F1B4F011A7EE9AEEEB3B6B1 /* CDPButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 6979E1B790B15A9500B02C05675E03AC /* CDPButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A313C2CEFC86EAA4422A49841DF6874A /* Pods-LYTestGitRemote_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69206123D3513F7BE79F5466599D8CEB /* Pods-LYTestGitRemote_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BAF7E4D5E7E1F662FC4B4645F5A9EFD2 /* CDPButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA46A1A68849486D4E7E1E02A89D702 /* CDPButton.m */; };
-		C61FB0B37A0EEDF8BF7FEBFE0495CEDA /* LYTestGitRemote-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F33346370F780B8504888DEBD60DD05B /* LYTestGitRemote-dummy.m */; };
-		C8A77AACECB1C86DE346C375DEEB57B0 /* CDPButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D52859A2781FBB9E831BBF7D32B138C /* CDPButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC5F9EDAFAB7C45729F190EE5874A6A6 /* CDPPause@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 96E250566A6DD04C43587D212D7E2B32 /* CDPPause@2x.png */; };
 		D3A4DF28E9E8AB0EEF7FF6BEC90A9EC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		EE5AE5925B2BC098D7F544958E23DE6F /* CDPPause.png in Sources */ = {isa = PBXBuildFile; fileRef = 7104335DFBA5912238176B6F0FE955E0 /* CDPPause.png */; };
 		F11A8C1F18FF570EB645E39C97900F47 /* Pods-LYTestGitRemote_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5BC52F99915693AC6EFC3D54B8FAF1 /* Pods-LYTestGitRemote_Example-dummy.m */; };
 		F25CF269C561D2BC6C3A5DF46132B24C /* Pods-LYTestGitRemote_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FEDFBEFD7D6004342CE4DE6F28C800 /* Pods-LYTestGitRemote_Tests-dummy.m */; };
-		F649C332F90F1F33B0AF6B69CF55EEFB /* CDPBack@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 8A5B558E9AB2FCE7F84E6DC002FE7807 /* CDPBack@3x.png */; };
+		FA850EB3D3551850C2F3451A6AA6BBC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		FBB7556D72274D860114A0D7E9B92085 /* Pods-LYTestGitRemote_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E00BF901C4D0B8364ED2C7DEB7D52CD /* Pods-LYTestGitRemote_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -48,69 +36,57 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 24B42D5297240EA539B2D1E468F27640;
+			remoteGlobalIDString = 9756B8E948F76264315267E8DF01FEC5;
 			remoteInfo = LYTestGitRemote;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		03A19B79F2FF2B120F7094EA1387130A /* Pods-LYTestGitRemote_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYTestGitRemote_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		03E26AEFD92E2A7735B0F133C5850B92 /* LYTestGitRemote-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LYTestGitRemote-dummy.m"; sourceTree = "<group>"; };
 		06BBC12F4240097FD02205B655347BAC /* Pods-LYTestGitRemote_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYTestGitRemote_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		06F0A09301B7016855557B879A76E020 /* UIAlertController+MyAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertController+MyAlertController.h"; path = "LYTestGitRemote/Classes/UIAlertController+MyAlertController.h"; sourceTree = "<group>"; };
 		0C8E07F13EF21B0865A4FEA2C11316A0 /* Pods-LYTestGitRemote_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYTestGitRemote_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		17E4D54957CC03AFCFEA01A382F0C3BE /* CDPSlider@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "CDPSlider@2x.png"; sourceTree = "<group>"; };
 		1B5BC52F99915693AC6EFC3D54B8FAF1 /* Pods-LYTestGitRemote_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LYTestGitRemote_Example-dummy.m"; sourceTree = "<group>"; };
+		1CA904FD3967F0FA4D7E630C1C335475 /* CDPVideoPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDPVideoPlayer.m; path = LYTestGitRemote/Classes/HomeModul/CDPVideoPlayer.m; sourceTree = "<group>"; };
 		1CF9F8CA588BCB51716CEAD8FED1AB69 /* Pods-LYTestGitRemote_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LYTestGitRemote_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		40BF7E11239D2EC43FDBA18C2767EF3B /* CDPZoomIn.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = CDPZoomIn.png; sourceTree = "<group>"; };
-		456E277A118C6EEC97F044512D599A17 /* LYTestGitRemote-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYTestGitRemote-prefix.pch"; sourceTree = "<group>"; };
+		276ED867457DF9DB3DD85BD5E4393E53 /* LYTestGitRemote.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LYTestGitRemote.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		399E6D4F4AAFAD21C2BD7888DB7679FB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		435FB986E04AE96B5AC2E4F0D0F231E6 /* LYTestGitRemote-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYTestGitRemote-umbrella.h"; sourceTree = "<group>"; };
 		488920BFE34173C9FDD4BA759A870BCA /* Pods-LYTestGitRemote_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYTestGitRemote_Example-Info.plist"; sourceTree = "<group>"; };
-		531DA9EF08D0DE1122D6A8D291521632 /* CDPSlider@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "CDPSlider@3x.png"; sourceTree = "<group>"; };
+		58C2906F048A5E9B1AA9509F3CEE9C0D /* CDPVideoPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDPVideoPlayer.h; path = LYTestGitRemote/Classes/HomeModul/CDPVideoPlayer.h; sourceTree = "<group>"; };
 		623BDC40D7D443B10CF9D225DEFB8E21 /* Pods-LYTestGitRemote_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYTestGitRemote_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		64FF2F3137CE92C5D6BAB587848C4E2F /* LYTestGitRemote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LYTestGitRemote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62F3A1B3FE70E1859929DB720626F7DC /* UIAlertController+MyAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertController+MyAlertController.m"; path = "LYTestGitRemote/Classes/UIAlertController+MyAlertController.m"; sourceTree = "<group>"; };
+		64FF2F3137CE92C5D6BAB587848C4E2F /* LYTestGitRemote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LYTestGitRemote.framework; path = LYTestGitRemote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		665EEF002168BAB6D8BC7D5607FA5B5E /* Pods-LYTestGitRemote_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LYTestGitRemote_Example-frameworks.sh"; sourceTree = "<group>"; };
-		67D815CF8883A00D4A8B4B5291A3BDFE /* CDPZoomIn@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "CDPZoomIn@2x.png"; sourceTree = "<group>"; };
+		68E6B80716BACAB0DDCB1A395B60784C /* LYTestGitRemote-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYTestGitRemote-prefix.pch"; sourceTree = "<group>"; };
 		69206123D3513F7BE79F5466599D8CEB /* Pods-LYTestGitRemote_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LYTestGitRemote_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6979E1B790B15A9500B02C05675E03AC /* CDPButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDPButton.h; path = LYTestGitRemote/Classes/HomeModul/CDPButton.h; sourceTree = "<group>"; };
 		70EC68EFA5B000FEAAE049A5980A137E /* Pods-LYTestGitRemote_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYTestGitRemote_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7104335DFBA5912238176B6F0FE955E0 /* CDPPause.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = CDPPause.png; sourceTree = "<group>"; };
-		75AFA9FFF56855D5FC9EA7E827AA6FC4 /* LYTestGitRemote-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LYTestGitRemote-Info.plist"; sourceTree = "<group>"; };
-		78429ED16FFFDE20B60E1BA4D7E5523C /* LYTestGitRemote.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LYTestGitRemote.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		7A5FDCBCA1DD3F94ED91BD570D8F1972 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		7AD250B9C15F02532AC7D8585D001860 /* UIAlertController+MyAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertController+MyAlertController.h"; path = "LYTestGitRemote/Classes/UIAlertController+MyAlertController.h"; sourceTree = "<group>"; };
-		7C200ED4D133609B4450A225E7A7960D /* UIAlertController+MyAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertController+MyAlertController.m"; path = "LYTestGitRemote/Classes/UIAlertController+MyAlertController.m"; sourceTree = "<group>"; };
-		86BCC5D1107C1940C8BEF6D858859A89 /* LYTestGitRemote.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LYTestGitRemote.modulemap; sourceTree = "<group>"; };
-		8887B98C75853A61027408C6AD5FF8CD /* LYTestGitRemote-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYTestGitRemote-umbrella.h"; sourceTree = "<group>"; };
-		8A5B558E9AB2FCE7F84E6DC002FE7807 /* CDPBack@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "CDPBack@3x.png"; sourceTree = "<group>"; };
-		8BB586C6448CBE2CACD1B89C88835CE1 /* CDPZoomOut.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = CDPZoomOut.png; sourceTree = "<group>"; };
-		8D930BE25026C73133116D45C7D2D9CD /* CDPVideoPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDPVideoPlayer.m; sourceTree = "<group>"; };
+		784692BC389F6599B181DA0E9D08EBCE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7986CF1E29060F1685DBF16856568092 /* LYTestGitRemote-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LYTestGitRemote-Info.plist"; sourceTree = "<group>"; };
 		8FEA0FC6132EB80C11F490B313775648 /* Pods-LYTestGitRemote_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYTestGitRemote_Tests-Info.plist"; sourceTree = "<group>"; };
 		92E2F90CE6B8D8F08AD591F192C25993 /* Pods-LYTestGitRemote_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYTestGitRemote_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		96E250566A6DD04C43587D212D7E2B32 /* CDPPause@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "CDPPause@2x.png"; sourceTree = "<group>"; };
-		9BA46A1A68849486D4E7E1E02A89D702 /* CDPButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDPButton.m; sourceTree = "<group>"; };
-		9D52859A2781FBB9E831BBF7D32B138C /* CDPButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDPButton.h; sourceTree = "<group>"; };
+		9DACD4E8B39B757235DE3A99BF84BBB4 /* CDPButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDPButton.m; path = LYTestGitRemote/Classes/HomeModul/CDPButton.m; sourceTree = "<group>"; };
 		9E00BF901C4D0B8364ED2C7DEB7D52CD /* Pods-LYTestGitRemote_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LYTestGitRemote_Example-umbrella.h"; sourceTree = "<group>"; };
-		A0B00ED80F4D53FCFC6B135CD03873AF /* Pods_LYTestGitRemote_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYTestGitRemote_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0B00ED80F4D53FCFC6B135CD03873AF /* Pods_LYTestGitRemote_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LYTestGitRemote_Tests.framework; path = "Pods-LYTestGitRemote_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B5FEDFBEFD7D6004342CE4DE6F28C800 /* Pods-LYTestGitRemote_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LYTestGitRemote_Tests-dummy.m"; sourceTree = "<group>"; };
-		CDF2A933F9964E9FCC0249DCFF93F73F /* LYTestGitRemote.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LYTestGitRemote.xcconfig; sourceTree = "<group>"; };
-		CFB0D34EAC88EFA801F3359DFC10C6AE /* CDPZoomOut@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "CDPZoomOut@2x.png"; sourceTree = "<group>"; };
+		B863AB36208F468556AB15E29BD428C1 /* LYTestGitRemote.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LYTestGitRemote.modulemap; sourceTree = "<group>"; };
+		CC3035D7B1D237A6ED4F6DC410BA46D2 /* LYTestGitRemote.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LYTestGitRemote.xcconfig; sourceTree = "<group>"; };
 		D52431D60D1C084E10083B1D72FC05AD /* Pods-LYTestGitRemote_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LYTestGitRemote_Example.modulemap"; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E40BA56106DDE6112751463FC7CB9BD5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		E68F797245F8C05E65F332EB791770E3 /* CDPPlay@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "CDPPlay@2x.png"; sourceTree = "<group>"; };
-		E94374C7E5F570A1AA1B35D664CEA127 /* Pods_LYTestGitRemote_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYTestGitRemote_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F33346370F780B8504888DEBD60DD05B /* LYTestGitRemote-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LYTestGitRemote-dummy.m"; sourceTree = "<group>"; };
-		F352887B071F8B7042A276370EAF76D0 /* CDPVideoPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDPVideoPlayer.h; sourceTree = "<group>"; };
-		F3540B71DFD46CFAABA19AFB3C29AF40 /* CDPPlay.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = CDPPlay.png; sourceTree = "<group>"; };
-		FAA05126D9F29B5473D7232477BCA89D /* CDPBack@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "CDPBack@2x.png"; sourceTree = "<group>"; };
+		E94374C7E5F570A1AA1B35D664CEA127 /* Pods_LYTestGitRemote_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LYTestGitRemote_Example.framework; path = "Pods-LYTestGitRemote_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCA1E560FBF22022F6389D6BC3A428C3 /* Pods-LYTestGitRemote_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LYTestGitRemote_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FDA8211E30696182E8BF038E2A06DDD1 /* Pods-LYTestGitRemote_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LYTestGitRemote_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		44105799CEDBF30A91429E18306571FC /* Frameworks */ = {
+		16390083EB407F9F6CDF637C4D4DDB06 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01F5D11E2C78228ADFD2B5DD7BF8183B /* Foundation.framework in Frameworks */,
+				FA850EB3D3551850C2F3451A6AA6BBC6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,23 +112,9 @@
 		253E6823BBDF78CC924EE831ED83257B /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7CF3E41BCBF59D710D6755A341C92276 /* LYTestGitRemote */,
+				704EA5C26BF5E265E4379972BFC25498 /* LYTestGitRemote */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		336C69ADED1AB48BA21C45DC9703CFB9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				86BCC5D1107C1940C8BEF6D858859A89 /* LYTestGitRemote.modulemap */,
-				CDF2A933F9964E9FCC0249DCFF93F73F /* LYTestGitRemote.xcconfig */,
-				F33346370F780B8504888DEBD60DD05B /* LYTestGitRemote-dummy.m */,
-				75AFA9FFF56855D5FC9EA7E827AA6FC4 /* LYTestGitRemote-Info.plist */,
-				456E277A118C6EEC97F044512D599A17 /* LYTestGitRemote-prefix.pch */,
-				8887B98C75853A61027408C6AD5FF8CD /* LYTestGitRemote-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LYTestGitRemote";
 			sourceTree = "<group>";
 		};
 		44D5347904CF754D6785B84253F2574A /* iOS */ = {
@@ -163,14 +125,27 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		47C1435BEF6DE9F6B12A695BD2B9296F /* Pod */ = {
+		4AE8657710A895E6F6DE518994A832DB /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E40BA56106DDE6112751463FC7CB9BD5 /* LICENSE */,
-				78429ED16FFFDE20B60E1BA4D7E5523C /* LYTestGitRemote.podspec */,
-				7A5FDCBCA1DD3F94ED91BD570D8F1972 /* README.md */,
+				784692BC389F6599B181DA0E9D08EBCE /* LICENSE */,
+				276ED867457DF9DB3DD85BD5E4393E53 /* LYTestGitRemote.podspec */,
+				399E6D4F4AAFAD21C2BD7888DB7679FB /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		704EA5C26BF5E265E4379972BFC25498 /* LYTestGitRemote */ = {
+			isa = PBXGroup;
+			children = (
+				06F0A09301B7016855557B879A76E020 /* UIAlertController+MyAlertController.h */,
+				62F3A1B3FE70E1859929DB720626F7DC /* UIAlertController+MyAlertController.m */,
+				8B446C4322EDE5BC6683540B4F349C72 /* HomeModul */,
+				4AE8657710A895E6F6DE518994A832DB /* Pod */,
+				B2DBCA982B65BBC21827DE5E9909DC5B /* Support Files */,
+			);
+			name = LYTestGitRemote;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		77A43E46A3315A0DA69F2ECC614820FD /* Pods-LYTestGitRemote_Example */ = {
@@ -188,19 +163,6 @@
 			);
 			name = "Pods-LYTestGitRemote_Example";
 			path = "Target Support Files/Pods-LYTestGitRemote_Example";
-			sourceTree = "<group>";
-		};
-		7CF3E41BCBF59D710D6755A341C92276 /* LYTestGitRemote */ = {
-			isa = PBXGroup;
-			children = (
-				7AD250B9C15F02532AC7D8585D001860 /* UIAlertController+MyAlertController.h */,
-				7C200ED4D133609B4450A225E7A7960D /* UIAlertController+MyAlertController.m */,
-				A4521946D7D1E650141A1A899D3F3FFE /* HomeModul */,
-				47C1435BEF6DE9F6B12A695BD2B9296F /* Pod */,
-				336C69ADED1AB48BA21C45DC9703CFB9 /* Support Files */,
-			);
-			name = LYTestGitRemote;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -230,36 +192,29 @@
 			path = "Target Support Files/Pods-LYTestGitRemote_Tests";
 			sourceTree = "<group>";
 		};
-		960691003CD3644750356900D7EF6563 /* CDPImages */ = {
+		8B446C4322EDE5BC6683540B4F349C72 /* HomeModul */ = {
 			isa = PBXGroup;
 			children = (
-				FAA05126D9F29B5473D7232477BCA89D /* CDPBack@2x.png */,
-				8A5B558E9AB2FCE7F84E6DC002FE7807 /* CDPBack@3x.png */,
-				7104335DFBA5912238176B6F0FE955E0 /* CDPPause.png */,
-				96E250566A6DD04C43587D212D7E2B32 /* CDPPause@2x.png */,
-				F3540B71DFD46CFAABA19AFB3C29AF40 /* CDPPlay.png */,
-				E68F797245F8C05E65F332EB791770E3 /* CDPPlay@2x.png */,
-				17E4D54957CC03AFCFEA01A382F0C3BE /* CDPSlider@2x.png */,
-				531DA9EF08D0DE1122D6A8D291521632 /* CDPSlider@3x.png */,
-				40BF7E11239D2EC43FDBA18C2767EF3B /* CDPZoomIn.png */,
-				67D815CF8883A00D4A8B4B5291A3BDFE /* CDPZoomIn@2x.png */,
-				8BB586C6448CBE2CACD1B89C88835CE1 /* CDPZoomOut.png */,
-				CFB0D34EAC88EFA801F3359DFC10C6AE /* CDPZoomOut@2x.png */,
-			);
-			path = CDPImages;
-			sourceTree = "<group>";
-		};
-		A4521946D7D1E650141A1A899D3F3FFE /* HomeModul */ = {
-			isa = PBXGroup;
-			children = (
-				9D52859A2781FBB9E831BBF7D32B138C /* CDPButton.h */,
-				9BA46A1A68849486D4E7E1E02A89D702 /* CDPButton.m */,
-				F352887B071F8B7042A276370EAF76D0 /* CDPVideoPlayer.h */,
-				8D930BE25026C73133116D45C7D2D9CD /* CDPVideoPlayer.m */,
-				960691003CD3644750356900D7EF6563 /* CDPImages */,
+				6979E1B790B15A9500B02C05675E03AC /* CDPButton.h */,
+				9DACD4E8B39B757235DE3A99BF84BBB4 /* CDPButton.m */,
+				58C2906F048A5E9B1AA9509F3CEE9C0D /* CDPVideoPlayer.h */,
+				1CA904FD3967F0FA4D7E630C1C335475 /* CDPVideoPlayer.m */,
 			);
 			name = HomeModul;
-			path = LYTestGitRemote/Classes/HomeModul;
+			sourceTree = "<group>";
+		};
+		B2DBCA982B65BBC21827DE5E9909DC5B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B863AB36208F468556AB15E29BD428C1 /* LYTestGitRemote.modulemap */,
+				CC3035D7B1D237A6ED4F6DC410BA46D2 /* LYTestGitRemote.xcconfig */,
+				03E26AEFD92E2A7735B0F133C5850B92 /* LYTestGitRemote-dummy.m */,
+				7986CF1E29060F1685DBF16856568092 /* LYTestGitRemote-Info.plist */,
+				68E6B80716BACAB0DDCB1A395B60784C /* LYTestGitRemote-prefix.pch */,
+				435FB986E04AE96B5AC2E4F0D0F231E6 /* LYTestGitRemote-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LYTestGitRemote";
 			sourceTree = "<group>";
 		};
 		BA6AB623BB62F59AC9AA2041616D97C8 /* Targets Support Files */ = {
@@ -292,22 +247,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		584666ADACCBCB6ADCA782B58549B90A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C8A77AACECB1C86DE346C375DEEB57B0 /* CDPButton.h in Headers */,
-				19E5A1F63DBE1AFA9BE61C9583A2D875 /* CDPVideoPlayer.h in Headers */,
-				6F3AD5F241BFE6BC1C8722134BE2A8BC /* LYTestGitRemote-umbrella.h in Headers */,
-				A02AE24227C185C9ED3D4CAFF8E8B1C1 /* UIAlertController+MyAlertController.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C3C161FAD0681D548CA9539FEB0638ED /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FBB7556D72274D860114A0D7E9B92085 /* Pods-LYTestGitRemote_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D51B4E91838B10C3AC76A40160A7F817 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95824BE85F1B4F011A7EE9AEEEB3B6B1 /* CDPButton.h in Headers */,
+				5FC71702EC0E6478A9EFEABB388A7643 /* CDPVideoPlayer.h in Headers */,
+				6C70B490E85F51299ABED246928B26ED /* LYTestGitRemote-umbrella.h in Headers */,
+				1589BEF35F80FD21DCCF02276880281B /* UIAlertController+MyAlertController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,24 +277,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		24B42D5297240EA539B2D1E468F27640 /* LYTestGitRemote */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D22D42CD7CE31DDF8F2E41E8212CA930 /* Build configuration list for PBXNativeTarget "LYTestGitRemote" */;
-			buildPhases = (
-				584666ADACCBCB6ADCA782B58549B90A /* Headers */,
-				E1790CD938BA6AC6F2267B7E6ED30CF6 /* Sources */,
-				44105799CEDBF30A91429E18306571FC /* Frameworks */,
-				43A9435E54D7A483880ABA06A5310086 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = LYTestGitRemote;
-			productName = LYTestGitRemote;
-			productReference = 64FF2F3137CE92C5D6BAB587848C4E2F /* LYTestGitRemote.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		88F5AD91E4DC486C58380724C2037883 /* Pods-LYTestGitRemote_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CAC2ADC36CD2391BB404DD9F58F25763 /* Build configuration list for PBXNativeTarget "Pods-LYTestGitRemote_Tests" */;
@@ -378,6 +315,24 @@
 			productReference = E94374C7E5F570A1AA1B35D664CEA127 /* Pods_LYTestGitRemote_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		9756B8E948F76264315267E8DF01FEC5 /* LYTestGitRemote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2F43C0253776298B460273FEDF24B56 /* Build configuration list for PBXNativeTarget "LYTestGitRemote" */;
+			buildPhases = (
+				D51B4E91838B10C3AC76A40160A7F817 /* Headers */,
+				D115E0A53D99BFA767EA4F624E6EBC7F /* Sources */,
+				16390083EB407F9F6CDF637C4D4DDB06 /* Frameworks */,
+				658FD3149B7FDC8ABC46B21F18477DDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYTestGitRemote;
+			productName = LYTestGitRemote;
+			productReference = 64FF2F3137CE92C5D6BAB587848C4E2F /* LYTestGitRemote.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -399,7 +354,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				24B42D5297240EA539B2D1E468F27640 /* LYTestGitRemote */,
+				9756B8E948F76264315267E8DF01FEC5 /* LYTestGitRemote */,
 				8AEFCE235A21410EFF3EC5FEFEB30254 /* Pods-LYTestGitRemote_Example */,
 				88F5AD91E4DC486C58380724C2037883 /* Pods-LYTestGitRemote_Tests */,
 			);
@@ -407,7 +362,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		43A9435E54D7A483880ABA06A5310086 /* Resources */ = {
+		658FD3149B7FDC8ABC46B21F18477DDC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -447,26 +402,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1790CD938BA6AC6F2267B7E6ED30CF6 /* Sources */ = {
+		D115E0A53D99BFA767EA4F624E6EBC7F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11262773DEC7CA9F608A318D0C2E1AAB /* CDPBack@2x.png in Sources */,
-				F649C332F90F1F33B0AF6B69CF55EEFB /* CDPBack@3x.png in Sources */,
-				BAF7E4D5E7E1F662FC4B4645F5A9EFD2 /* CDPButton.m in Sources */,
-				EE5AE5925B2BC098D7F544958E23DE6F /* CDPPause.png in Sources */,
-				CC5F9EDAFAB7C45729F190EE5874A6A6 /* CDPPause@2x.png in Sources */,
-				29CD2D0D5017CAB135EDBF712F901F17 /* CDPPlay.png in Sources */,
-				66CFCC7B00DF9BC7A754236C473D0DFC /* CDPPlay@2x.png in Sources */,
-				3F3D7063ECCC203FD6069997C641759D /* CDPSlider@2x.png in Sources */,
-				9179F0B8F9D26BABCC33476E8B52EA79 /* CDPSlider@3x.png in Sources */,
-				7ED5EFCEB131B1B97E912CD7C8E1D639 /* CDPVideoPlayer.m in Sources */,
-				0C0BCA6C7BB88BA8E397758AE33E9BB7 /* CDPZoomIn.png in Sources */,
-				7FA517A8C3948D9E3B3E6C6654E9645C /* CDPZoomIn@2x.png in Sources */,
-				15E93887BA5F58C6804AA749DE73B549 /* CDPZoomOut.png in Sources */,
-				31B995E1A5C3291A1ACC89C623EA2990 /* CDPZoomOut@2x.png in Sources */,
-				C61FB0B37A0EEDF8BF7FEBFE0495CEDA /* LYTestGitRemote-dummy.m in Sources */,
-				664BCFF0D412869771E1F973134E71F2 /* UIAlertController+MyAlertController.m in Sources */,
+				77F9BF6459BF2CFE2CFD57D6CEF8DFBA /* CDPButton.m in Sources */,
+				83EFACF06646FC0C86B28CA9B90BF7D4 /* CDPVideoPlayer.m in Sources */,
+				038D1957174ECD175A5F6AE954A08957 /* LYTestGitRemote-dummy.m in Sources */,
+				61315F6E1B8C3DC9D56A3BA2C3C7E6D6 /* UIAlertController+MyAlertController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,7 +419,7 @@
 		B8E9971DD0487621B3DEF7F3776FA2F0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LYTestGitRemote;
-			target = 24B42D5297240EA539B2D1E468F27640 /* LYTestGitRemote */;
+			target = 9756B8E948F76264315267E8DF01FEC5 /* LYTestGitRemote */;
 			targetProxy = 9F27CE9F53F0E8E652622D44FB0EC90A /* PBXContainerItemProxy */;
 		};
 		E5871D3223B86C6E0A2E634DD635123F /* PBXTargetDependency */ = {
@@ -522,9 +465,9 @@
 			};
 			name = Release;
 		};
-		2F0787516DB324F9F8DD272855E87899 /* Debug */ = {
+		4426361AAD06052BB27209033587D42B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDF2A933F9964E9FCC0249DCFF93F73F /* LYTestGitRemote.xcconfig */;
+			baseConfigurationReference = CC3035D7B1D237A6ED4F6DC410BA46D2 /* LYTestGitRemote.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -736,7 +679,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -775,9 +719,9 @@
 			};
 			name = Debug;
 		};
-		CBE55FEB6CE0D36891FC06336E237AE5 /* Release */ = {
+		FB8C2654DAE9FEC377783DC86BCB1BB7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDF2A933F9964E9FCC0249DCFF93F73F /* LYTestGitRemote.xcconfig */;
+			baseConfigurationReference = CC3035D7B1D237A6ED4F6DC410BA46D2 /* LYTestGitRemote.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -827,20 +771,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		C2F43C0253776298B460273FEDF24B56 /* Build configuration list for PBXNativeTarget "LYTestGitRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4426361AAD06052BB27209033587D42B /* Debug */,
+				FB8C2654DAE9FEC377783DC86BCB1BB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CAC2ADC36CD2391BB404DD9F58F25763 /* Build configuration list for PBXNativeTarget "Pods-LYTestGitRemote_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6DB9B17689F3F8EE665FC2270C6CB4C1 /* Debug */,
 				6213F856EEBD911ECCD10FC6ADA2D926 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D22D42CD7CE31DDF8F2E41E8212CA930 /* Build configuration list for PBXNativeTarget "LYTestGitRemote" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2F0787516DB324F9F8DD272855E87899 /* Debug */,
-				CBE55FEB6CE0D36891FC06336E237AE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

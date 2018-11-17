@@ -1,5 +1,7 @@
 PODS:
-  - LYTestGitRemote (0.1.0)
+  - LYTestGitRemote (0.2.0):
+    - LYTestGitRemote/HomeModul (= 0.2.0)
+  - LYTestGitRemote/HomeModul (0.2.0)
 
 DEPENDENCIES:
   - LYTestGitRemote (from `../`)
@@ -9,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LYTestGitRemote: fd6136b16fd8872ce0018db8c26988ad7bc9ee7e
+  LYTestGitRemote: d1d480855b04ce7e1fa54c727c0c727450575b61
 
 PODFILE CHECKSUM: 5b75bb41e9746333d1aea5e488b86bce27e209ed
 
