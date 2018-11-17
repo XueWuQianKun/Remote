@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LYTestGitRemote_Example' do
+  pod 'LYTestGitRemote', :path => '../'
+
+  target 'LYTestGitRemote_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
